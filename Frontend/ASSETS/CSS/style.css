@@ -1,0 +1,66 @@
+section.banner{
+    background-image: url(../IMG/salto\ angel\ nueva.jpg);
+    width: 100%;    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+    
+.navbar.navbar-expand-lg.bg-primary{
+    background: rgb(223,143,152);
+background: radial-gradient(circle, rgba(223,143,152,1) 27%, rgba(186,76,84,1) 61%, rgba(74,159,148,0.9335084375547094) 99%);
+}
+
+i.fa-brands.fa-instagram.fa-2xl,i.fa-brands.fa-github.fa-2xl,i.fa-brands.fa-linkedin.fa-2xl,i.fa-solid.fa-user-lock.fa-2xl{
+    color: black;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+color:rgb(228, 36, 157)
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+.list-group{
+    --bs-list-group-border-color: transparent;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:rgb(23, 119, 237)
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color:rgb(36, 225, 228)
+}
+
+h3.intro{
+    padding-top: 15%;
+    font-size: 3rem;
+}
+h1.intro{
+    font-size: 4rem;
+}
+h2.intro{
+    font-size: 3.25rem;
+}
+section.about,section.Experiencia,section.Educación,section.HardSoft,section.Proyectos{
+    background: rgb(241,179,240);
+background: linear-gradient(90deg, rgba(241,179,240,1) 0%, rgba(156,185,217,0.9475140397956058) 37%, rgba(219,241,123,0.9139005944174545) 65%, rgba(236,185,174,0.9447129193474265) 77%);
+}
+/*.progress{
+    background-color: green
+    --bs-progress-bg: rgb(36, 225, 228)
+}*/
+.login{
+    height: 100vh;
+}
+.formulario-login{
+    margin-top: 20%;
+}
+.formulario-registro{
+    margin-top: 30%;
+}
+.registro{
+    height: 120vh;
+    }
+.bg-black.text-white.text-center.fs-6{
+    background: rgb(223,143,152);
+    background: radial-gradient(circle, rgba(223,143,152,1) 27%, rgba(186,76,84,1) 61%, rgba(74,159,148,0.9335084375547094) 99%);   
+}
