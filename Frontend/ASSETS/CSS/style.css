@@ -41,8 +41,8 @@ h2.intro{
     font-size: 3.25rem;
 }
 section.about,section.Experiencia,section.Educación,section.HardSoft,section.Proyectos{
-    background: rgb(241,179,240);
-background: linear-gradient(90deg, rgba(241,179,240,1) 0%, rgba(156,185,217,0.9475140397956058) 37%, rgba(219,241,123,0.9139005944174545) 65%, rgba(236,185,174,0.9447129193474265) 77%);
+    background: rgb(149,207,207);
+background: linear-gradient(90deg, rgba(149,207,207,0.9475140397956058) 37%, rgba(243,149,129,0.9447129193474265) 77%, rgba(76,100,106,1) 98%);
 }
 .login{
     height: 100vh;
@@ -65,4 +65,11 @@ background: linear-gradient(90deg, rgba(241,179,240,1) 0%, rgba(156,185,217,0.94
     margin-left: 60%;
     min-width: 50rem;
 }
-
+body.index{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cambiosdb{
+    background: rgb(149,207,207);
+    background: linear-gradient(90deg, rgba(149,207,207,0.9475140397956058) 37%, rgba(243,149,129,0.9447129193474265) 77%, rgba(76,100,106,1) 98%); 
+}

@@ -22,12 +22,12 @@
         <ul class="list-group list-group-horizontal">
           <!-- Button que envia al portfolio -->
           <li class="list-group-item"> 
-          <a href="/Frontend/index.html"><i class="fa-solid fa-user fa-2xl"></a>
-          </i>
+          <a href="/Frontend/index.html"><i class="fa-solid fa-user fa-2xl"></i></a>
          </li>
         </ul>
   </div>
       </nav>
+      <section class="cambiosdb">
       <section class="registro">
         <div class="container-fluid text-center">
           <div class="row">
@@ -38,17 +38,17 @@
               <!-- Button trigger modal redes -->
               <li type="button" class="list-group-item classds list-group-item-action list-group-item-primary " data-bs-toggle="modal" data-bs-target="#redesModal"><i class="fa-solid fa-pen"></i>Redes</li>
               <!-- Button trigger modal banner -->
-              <li type="button" class="list-group-item classds list-group-item-action list-group-item-warning" data-bs-toggle="modal" data-bs-target="#bannerModal"><i class="fa-solid fa-pen"></i> Banner</li>
+              <li type="button" class="list-group-item classds list-group-item-action list-group-item-warning" data-bs-toggle="modal" data-bs-target="#bannerModal"><i class="fa-solid fa-pen"></i>Banner</li>
               <!-- Button trigger modal info -->
               <li type="button" class="list-group-item classds list-group-item-action list-group-item-danger" data-bs-toggle="modal" data-bs-target="#datosModal"><i class="fa-solid fa-pen"></i>Datos Personales</li>
               <!-- Button trigger modal experiencia -->
-              <li type="button" class="list-group-item classds list-group-item-action list-group-item-dark" data-bs-toggle="modal" data-bs-target="#experienciaModal"><i class="fa-solid fa-pen"></i> Experiencia</li>
+              <li type="button" class="list-group-item classds list-group-item-action list-group-item-dark" data-bs-toggle="modal" data-bs-target="#experienciaModal"><i class="fa-solid fa-pen"></i>Experiencia</li>
               <!-- Button trigger modal estudios -->
-              <li type="button" class="list-group-item classds list-group-item-action list-group-item-light" data-bs-toggle="modal" data-bs-target="#estudiosModal"><i class="fa-solid fa-pen"></i> Estudios</li>
-               <!-- Button trigger modal proyecto -->
-              <li type="button" class="list-group-item classds list-group-item-action list-group-item-info"data-bs-toggle="modal" data-bs-target="#proyectoModal"><i class="fa-solid fa-pen"></i> Proyecto</li>
+              <li type="button" class="list-group-item classds list-group-item-action list-group-item-light" data-bs-toggle="modal" data-bs-target="#estudiosModal"><i class="fa-solid fa-pen"></i>Estudios</li>
               <!-- Button trigger modal habilidades -->
-              <li type="button" class="list-group-item classds list-group-item-action list-group-item-primary" data-bs-toggle="modal" data-bs-target="#habilidadesModal"><i class="fa-solid fa-pen"></i> Habilidades</li>
+              <li type="button" class="list-group-item classds list-group-item-action list-group-item-primary" data-bs-toggle="modal" data-bs-target="#habilidadesModal"><i class="fa-solid fa-pen"></i>Habilidades</li>
+               <!-- Button trigger modal proyecto -->
+              <li type="button" class="list-group-item classds list-group-item-action list-group-item-info"data-bs-toggle="modal" data-bs-target="#proyectoModal"><i class="fa-solid fa-pen"></i>Proyectos</li>
             </ul>           
           </div>
           <div class="col-8">            
@@ -249,6 +249,34 @@
   </div>
 </div>
 
+<!-- Modal Habilidades -->
+<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Habilidades</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Nueva Habilidad</option>
+          <option value="1">Instagram</option>
+          <option value="2">Git Hub</option>
+          <option value="3">Linkedin</option>
+        </select>
+
+        <div class="mb-3">
+          <label for="progreso" class="form-label">% Progreso</label>
+          <input type="number" min="0" max="100" id="habilidadPorcentaje">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-danger">Borrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Modal Proyecto -->
 <div class="modal fade" id="proyectoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -293,74 +321,8 @@
     </div>
   </div>
 </div>
+</section>
 
-
-<!-- Modal Habilidades -->
-<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Habilidades</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <select class="form-select mb-3" aria-label="Default select example">
-          <option selected>Nueva Habilidad</option>
-          <option value="1">Instagram</option>
-          <option value="2">Git Hub</option>
-          <option value="3">Linkedin</option>
-        </select>
-
-        <div class="mb-3">
-          <label for="progreso" class="form-label">% Progreso</label>
-          <input type="number" class="form-control" id="progreso">
-          <input type="number" min="0" max="100" id="habilidadPorcentaje">
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Guardar</button>
-        <button type="button" class="btn btn-danger">Borrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-      <!--Formulario de registro-->
-      <section class="registro">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-2">    
-          </div>
-          <div class="col-8 formulario-registro">
-            <div class="modal-body">
-              <div class="mb-3 row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                  </div>
-                </div>
-                <div class="mb-3 row">
-                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword">
-                  </div>
-                </div>
-      
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Registrarme</button>
-            </div>
-            <small>Si ya tenes cuenta <a href="/Frontend/login.html">ingresá</a></small>
-          </div>
-          <div class="col-2">
-          </div>
-        </div>
-      </div>
-    </section>
-
-         
      <!--Footer--> 
      <footer class="bg-black text-white text-center fs-6">
       <div class="pt-3">
