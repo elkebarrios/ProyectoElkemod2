@@ -10,36 +10,41 @@ section.banner{
     background: rgb(223,143,152);
 background: radial-gradient(circle, rgba(223,143,152,1) 27%, rgba(186,76,84,1) 61%, rgba(74,159,148,0.9335084375547094) 99%);
 }
-
+/*color de iconos*/
 i.fa-brands.fa-instagram.fa-2xl,i.fa-brands.fa-github.fa-2xl,i.fa-brands.fa-linkedin.fa-2xl,i.fa-solid.fa-user-lock.fa-2xl{
     color: black;
 }
+/*bordes y fondo iconos transparentes*/
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+/*color icono cuando lo seleccciono*/
 i.fa-brands.fa-instagram.fa-2xl:hover{
 color:rgb(228, 36, 157)
 }
-.list-group{
-    --bs-list-group-bg: transparent;
-}
-.list-group{
-    --bs-list-group-border-color: transparent;
-}
+/*color icono cuando lo seleccciono*/
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color:rgb(23, 119, 237)
 }
+/*color icono cuando lo seleccciono*/
 i.fa-brands.fa-github.fa-2xl:hover{
     color:rgb(36, 225, 228)
 }
-
+/*seccion banner*/
 h3.intro{
     padding-top: 15%;
     font-size: 3rem;
 }
+/*seccion banner*/
 h1.intro{
     font-size: 4rem;
 }
+/*seccion banner*/
 h2.intro{
     font-size: 3.25rem;
 }
+/*fondo secciones general*/
 section.about,section.Experiencia,section.Educación,section.HardSoft,section.Proyectos{
     background: rgb(149,207,207);
 background: linear-gradient(90deg, rgba(149,207,207,0.9475140397956058) 37%, rgba(243,149,129,0.9447129193474265) 77%, rgba(76,100,106,1) 98%);
@@ -56,19 +61,23 @@ background: linear-gradient(90deg, rgba(149,207,207,0.9475140397956058) 37%, rgb
 .registro{
     height: 120vh;
     }
+/* general para todos los textos*/    
 .bg-black.text-white.text-center.fs-6{
     background: rgb(223,143,152);
     background: radial-gradient(circle, rgba(223,143,152,1) 27%, rgba(186,76,84,1) 61%, rgba(74,159,148,0.9335084375547094) 99%);   
 }
+/*dasboard list -group*/
 .list-group.classds{
     margin-top: 40%;
     margin-left: 60%;
     min-width: 50rem;
 }
+/*textos body index*/
 body.index{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+/*fondo dashboard*/
 .cambiosdb{
     background: rgb(149,207,207);
     background: linear-gradient(90deg, rgba(149,207,207,0.9475140397956058) 37%, rgba(243,149,129,0.9447129193474265) 77%, rgba(76,100,106,1) 98%); 
